@@ -9,6 +9,7 @@
       margin: 0;
       padding: 0;
       color: #b2bec3;
+  
     }
   
     body {
@@ -18,17 +19,18 @@
       margin: 15px;
       padding: 15px;
     }
-  
+  /* Reader section*/
+
     header {
       padding: 20px 35px;
       background-color: #2d3436;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      position: sticky;
+     
       position: -webkit-sticky;
       top: 0;
-      background-size: cover;
+      background-size: cover; 
       background-attachment: fixed;
       background-position: 80%;
       z-index: 9999;
@@ -72,28 +74,40 @@
       border-radius: 15px;
       text-shadow: none;
     }
-    
+     /* about me section */
+
     .launch {
-        background-image: url("../images/bg-img.jpeg");
-        max-width: 100%;
+      background-image: url("/Users/viniciuscaribe/Desktop/BOOTCAMP/02-Challenge/assets/images/bg-img.jpeg");
+      box-sizing: border-box;
+      margin: 15px;
+      padding: 15px;
+        width: 100%;
+        background-size: cover;
+    display: flex;
+    text-align: right;
+    background-attachment: fixed;
+    background-position: 80%;
+    flex-direction: column;
+    background-position: center;
+
     }
 
-    .launch p{
-      height: 120px;
-      width: 30%;
-      font-size: 25px;
-      text-align: left;
-      padding: 7px ;
-      border-radius: 15px;
+    .launch-skills {
+      box-sizing: border-box;
+      margin: 15px;
+      padding: 15px;
+        width: 35%;
+        text-align: right;
+        margin: 3.5%;
+        color: var(--secondary-color);
+        font-size: 18px;
+        line-height: 1.2;
       text-shadow: 1px 1px black;
-      line-height: 8;
-      color: var(--primary-color);
-      margin: 0 auto;
-      margin-block-start: 1em;
+      flex-direction: column;
+      
     }
-    
-   
-
+  
+    /* projects expose */
 
     .showroom {
       background: var(--primary-color);
@@ -128,7 +142,7 @@
         flex-wrap: wrap;
         align-items: center;
       }
-  
+
     .project-img {
       flex: 1 8%;
       margin-right: 20px;
@@ -139,6 +153,8 @@
     }
 
     .project-img img:hover {
+      transform: scale(1.1);
+      z-index: 2;
         background: var(--primary-color);
         color: var(--secondary-color);
         border-radius: 15px;
@@ -146,7 +162,7 @@
         opacity: 50%;
       }
 
-      
+      /* title style */
 
     .section-title {
       font-size: 48px;
@@ -166,13 +182,19 @@
       border-color: var(--tertiary-color);
     }
   
+    /* certificates style*/
     .skillcertificate {
       margin: 20px;
       flex: 1;
-      background: var(--secondary-color);
       color: var(--primary-color);
       opacity: 70%;
     }
+    .skillcertificate img:hover {
+      transform: scale(1.1);
+      z-index: 2;
+        border-radius: 15px;
+        transition: 1s;
+      }
   
     .skills {
       width: 100%;
@@ -185,6 +207,8 @@
     .skillcertificate img {
       width: 100%;
     }
+
+    /* contact me style*/
 
     .contact {
         width: 100%;

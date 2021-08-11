@@ -77,7 +77,7 @@
      /* about me section */
 
     .launch {
-      background-image: url("./images/bg-img.jpeg");
+      background-image: url("../images/bg-img.jpeg");
       box-sizing: border-box;
       margin: 15px;
       padding: 15px;

@@ -1,7 +1,7 @@
 # PORTFOLIO
 
 ## Purpose
-A website that offers my professinal portfolio. 
+A web page that offers my professinal portfolio with some of my projects. 
 
 ## Built With
 * HTML

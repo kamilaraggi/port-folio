@@ -228,21 +228,6 @@
     padding: 4px 4px;
     float:right;
     }
-
-    footer {
-      background-color: #2d3436;
-      box-sizing: border-box;
-      margin: 9px;
-      padding: 9px;
-      width: 950px;
-      height: 10px;
-      display: flex;
-      text-align: right;
-      background-attachment: fixed;
-      flex-direction: column;
-      background-position: center;
-  
-      }
   
   /* UTILITIES */
   .text-left {
